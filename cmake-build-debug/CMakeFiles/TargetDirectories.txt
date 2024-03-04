@@ -1,0 +1,3 @@
+C:/Users/jan-w/OneDrive/Desktop/restaurant/cmake-build-debug/CMakeFiles/restaurant.dir
+C:/Users/jan-w/OneDrive/Desktop/restaurant/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jan-w/OneDrive/Desktop/restaurant/cmake-build-debug/CMakeFiles/rebuild_cache.dir
