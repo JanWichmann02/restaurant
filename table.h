@@ -10,9 +10,13 @@ class Table {
 public:
     Table(int seats, int tableNumber, bool tableWithWindow);
     void addGuest(const Guest & guest);
+    void addPayRequest(Guest * guest);
     void showGuests();
+    void showGuestsNotPaid();
+    Guest* requestForPayment();
 private:
     std::vector<Guest>guests;
+    std::vector<Guest>guestsNotPaid;
     int seats;
     int tableNumber;
     bool tableWithWindow;

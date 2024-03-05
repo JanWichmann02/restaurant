@@ -5,7 +5,7 @@
 #include "guest.h"
 
 Guest::Guest(std::string name, int money, bool diet)
-: name(name), money(money), diet(diet) {}
+: name(name), money(money), diet(diet), paid(false) {}
 
 const std::string &Guest::getName() const {
     return name;
@@ -13,4 +13,16 @@ const std::string &Guest::getName() const {
 
 void Guest::setName(const std::string &name) {
     Guest::name = name;
+}
+
+bool Guest::hasPaid() const {
+    return paid;
+}
+
+bool Guest::isPaid() const {
+    return paid;
+}
+
+void Guest::setPaid(bool paid) {
+    Guest::paid = paid;
 }
